@@ -1,0 +1,9 @@
+pandas
+openpyxl
+requests
+python-dotenv
+google-search-results
+google-generativeai
+streamlit
+seaborn
+matplotlib
