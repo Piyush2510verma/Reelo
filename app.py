@@ -184,7 +184,7 @@ def run_streamlit_app(df, summary):
     st.pyplot(fig2)
 
 def main():
-    place_id = st.text_input("Enter Google Maps Place ID:", "ChIJMbgb-JQjDTkREMhnXrrQk4w")
+    place_id = st.text_input("Enter Google Maps Place ID:", "0x549041cdf279071f:0xb4634cde435eb7ec")
     if st.button("Fetch & Analyze Reviews"):
         with st.spinner("Fetching reviews..."):
             df = fetch_reviews(place_id)
